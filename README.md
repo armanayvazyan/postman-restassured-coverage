@@ -3,6 +3,14 @@
 
 Postman Filter which adds functionality to calculate endpoints coverage from postman collection json file.
 
+## Dependency
+
+```
+<dependency>
+  <groupId>com.armanayvazyan</groupId>
+  <artifactId>postman-restassured-coverage</artifactId>
+  <version>1.0.0</version>
+</dependenc
 
 ## Documentation
 
