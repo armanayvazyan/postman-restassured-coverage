@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "1.8.0"
+    `maven-publish`
     java
 }
 
@@ -37,4 +38,24 @@ sourceSets {
 }
 tasks.jar {
     from(sourceSets["main"].allSource)
+}
+
+publishing {
+    repositories {
+        maven {
+            val username: String by project
+            val password: String by project
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/armanayvazyan/postman-restassured-coverage")
+            credentials {
+                ghb_username = project.findProperty("gpr.user") as String? ?: username
+                ghb_password = project.findProperty("gpr.key") as String? ?: password
+            }
+        }
+    }
+    publications {
+        register<MavenPublication>("gpr") {
+            from(components["java"])
+        }
+    }
 }
