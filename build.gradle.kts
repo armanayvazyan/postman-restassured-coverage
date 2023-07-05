@@ -43,13 +43,13 @@ tasks.jar {
 publishing {
     repositories {
         maven {
-            val username: String by project
-            val password: String by project
+            val ghb_username: String by project
+            val ghb_password: String by project
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/armanayvazyan/postman-restassured-coverage")
             credentials {
-                ghb_username = project.findProperty("gpr.user") as String? ?: username
-                ghb_password = project.findProperty("gpr.key") as String? ?: password
+                username = project.findProperty("gpr.user") as String? ?: ghb_username
+                password = project.findProperty("gpr.key") as String? ?: ghb_password
             }
         }
     }
