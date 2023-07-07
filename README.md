@@ -7,7 +7,7 @@ Postman Filter which adds functionality to calculate endpoints coverage from pos
 
 ```
 <dependency>
-  <groupId>com.armanayvazyan</groupId>
+  <groupId>io.github.armanayvazyan</groupId>
   <artifactId>postman-restassured-coverage</artifactId>
   <version>1.0.0</version>
 </dependency>
