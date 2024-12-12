@@ -19,7 +19,7 @@ object CollectionUtils {
                 getAllEndpointsFromGivenFile(it.iterateOverItem())
             }
         }
-        return listOfUrls;
+        return listOfUrls
     }
 }
 
