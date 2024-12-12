@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe016ad-1962-4b58-a437-a2474ce2037a" name="Changes" comment="Update Gradle wrapper and improve build scripts&#10;&#10;Upgraded Gradle wrapper to version 8.8 and added validation for the distribution URL. Enhanced bash and batch scripts with improved error handling and code comments. Updated IDE configurations for Kotlin and Gradle project settings.">
+    <list default="true" id="efe016ad-1962-4b58-a437-a2474ce2037a" name="Changes" comment="Update Gradle wrapper and improve build scripts&#10;&#10;Upgraded Gradle wrapper to version 8.8 and added validation for the distribution URL. Enhanced build scripts with improved error handling and code comments. Updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/armanayvazyan/utils/CollectionUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/armanayvazyan/utils/CollectionUtils.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,28 +105,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Arman.Ayvazyan/IdeaProjects/postman-restassured-coverage&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build postman-restassured-coverage.executor": "Run",
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/Arman.Ayvazyan/IdeaProjects/postman-restassured-coverage",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "settings.qodana",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="QodanaSettings">
     <option name="autoLoadCloudReport" value="true" />
   </component>
@@ -221,8 +221,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-QDJVM-242.24640" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-QDJVM-242.24640" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -257,6 +257,7 @@
       <workItem from="1716557157006" duration="1707000" />
       <workItem from="1734009978687" duration="28000" />
       <workItem from="1734010017993" duration="146000" />
+      <workItem from="1734010552297" duration="1323000" />
     </task>
     <task id="LOCAL-00001" summary="version 1">
       <created>1688573224717</created>
@@ -308,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734010152471</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update Gradle wrapper and improve build scripts&#10;&#10;Upgraded Gradle wrapper to version 8.8 and added validation for the distribution URL. Enhanced build scripts with improved error handling and code comments. Updated IDE configurations related to Kotlin and Gradle project settings.">
+      <option name="closed" value="true" />
+      <created>1734010619444</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734010619444</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +340,8 @@
     <MESSAGE value="readme update" />
     <MESSAGE value="fix for publishing" />
     <MESSAGE value="Update Gradle wrapper and improve build scripts&#10;&#10;Upgraded Gradle wrapper to version 8.8 and added validation for the distribution URL. Enhanced bash and batch scripts with improved error handling and code comments. Updated IDE configurations for Kotlin and Gradle project settings." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Gradle wrapper and improve build scripts&#10;&#10;Upgraded Gradle wrapper to version 8.8 and added validation for the distribution URL. Enhanced bash and batch scripts with improved error handling and code comments. Updated IDE configurations for Kotlin and Gradle project settings." />
+    <MESSAGE value="Update Gradle wrapper and improve build scripts&#10;&#10;Upgraded Gradle wrapper to version 8.8 and added validation for the distribution URL. Enhanced build scripts with improved error handling and code comments. Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Gradle wrapper and improve build scripts&#10;&#10;Upgraded Gradle wrapper to version 8.8 and added validation for the distribution URL. Enhanced build scripts with improved error handling and code comments. Updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
