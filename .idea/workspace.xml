@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe016ad-1962-4b58-a437-a2474ce2037a" name="Changes" comment="fix for publishing">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="efe016ad-1962-4b58-a437-a2474ce2037a" name="Changes" comment="Update Gradle wrapper and improve build scripts&#10;&#10;Upgraded Gradle wrapper to version 8.8 and added validation for the distribution URL. Enhanced bash and batch scripts with improved error handling and code comments. Updated IDE configurations for Kotlin and Gradle project settings.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/armanayvazyan/utils/CollectionUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/armanayvazyan/utils/CollectionUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,18 +78,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "armanayvazyan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;armanayvazyan&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/armanayvazyan/postman-restassured-coverage",
-    "accountId": "037e2679-76e2-40ca-9b57-74c78eb4d081"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/armanayvazyan/postman-restassured-coverage&quot;,
+    &quot;accountId&quot;: &quot;037e2679-76e2-40ca-9b57-74c78eb4d081&quot;
   }
-}]]></component>
+}</component>
   <component name="KotlinScriptingSettings">
     <scriptDefinition className="org.jetbrains.kotlin.scripting.resolve.KotlinScriptDefinitionFromAnnotatedTemplate" definitionName="KotlinBuildScript">
       <order>2147483647</order>
@@ -113,6 +108,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -225,8 +221,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-QDJVM-242.24640" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-QDJVM-242.24640" />
       </set>
     </attachedChunks>
   </component>
@@ -260,6 +256,7 @@
       <workItem from="1716555373003" duration="1704000" />
       <workItem from="1716557157006" duration="1707000" />
       <workItem from="1734009978687" duration="28000" />
+      <workItem from="1734010017993" duration="146000" />
     </task>
     <task id="LOCAL-00001" summary="version 1">
       <created>1688573224717</created>
@@ -303,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688576867015</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update Gradle wrapper and improve build scripts&#10;&#10;Upgraded Gradle wrapper to version 8.8 and added validation for the distribution URL. Enhanced bash and batch scripts with improved error handling and code comments. Updated IDE configurations for Kotlin and Gradle project settings.">
+      <option name="closed" value="true" />
+      <created>1734010152471</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734010152471</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +330,8 @@
     <MESSAGE value="added publishing" />
     <MESSAGE value="readme update" />
     <MESSAGE value="fix for publishing" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix for publishing" />
+    <MESSAGE value="Update Gradle wrapper and improve build scripts&#10;&#10;Upgraded Gradle wrapper to version 8.8 and added validation for the distribution URL. Enhanced bash and batch scripts with improved error handling and code comments. Updated IDE configurations for Kotlin and Gradle project settings." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Gradle wrapper and improve build scripts&#10;&#10;Upgraded Gradle wrapper to version 8.8 and added validation for the distribution URL. Enhanced bash and batch scripts with improved error handling and code comments. Updated IDE configurations for Kotlin and Gradle project settings." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
